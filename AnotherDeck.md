@@ -1,5 +1,8 @@
 ---
 footer: A test marp deck
+paginate: true
+progress: true
+theme: gaia
 ---
 # A Marp presentation
 ## Testing that all `.md` files are converted and published by the action
