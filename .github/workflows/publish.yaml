@@ -35,6 +35,8 @@ jobs:
 
       - name: Build Markdown index
         run: |
+          # ensure _site directory exists
+          mkdir -p ./_site
           # find all .md files (case-insensitive), exclude README.md, sort
           mapfile -t files < <(git ls-files -z | tr '\0' '\n' | grep -i '\.md$' | grep -vi '^readme\.md$' | sort)
           # build index content
