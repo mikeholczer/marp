@@ -3,15 +3,13 @@
 
 ---
 
-This is some code that isn't very interesting [^1]
+This is some code that isn't very interesting
 ```csharp
 foreach(var item in collection)
 {
   Console.WriteLine(item.Name);
 }
 ```
-
-[^1]: well it might be depending on what you're interested in
 
 ---
 # This is the end
