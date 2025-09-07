@@ -51,7 +51,7 @@ jobs:
               # use relative path text and HTML target
               echo "- [${f}](${target})"
             done
-          } > ./_site/index.md
+          } > ./index.md
         shell: bash
 
       - name: Convert to HTML
