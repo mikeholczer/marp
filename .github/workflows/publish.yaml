@@ -34,6 +34,7 @@ jobs:
           generate-html: true
           generate-pdf: false
           generate-pptx: false
+          output: ./_site
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v4
