@@ -3,7 +3,7 @@
 
 ---
 
-This is some code that isn't very interesting [^1}
+This is some code that isn't very interesting [^1]
 ```csharp
 foreach(var item in collection)
 {
