@@ -34,7 +34,10 @@ jobs:
           generate-html: true
           generate-pdf: false
           generate-pptx: false
-          output: ./_site
+          options: --output ./_site/
+          
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5.0.0
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v4
